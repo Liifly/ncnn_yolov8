@@ -27,7 +27,6 @@
 YoloV8 yolov8;
 int target_size = 640; //416; //320;  must be divisible by 32.
 
-/*
 int main(int argc, char** argv)
 {
     const char* imagepath = argv[1];
@@ -60,8 +59,7 @@ int main(int argc, char** argv)
 
     return 0;
 }
-*/
-
+/*
 int main(int argc, char** argv) {
     const char* vediopath = argv[1];
 
@@ -114,3 +112,4 @@ int main(int argc, char** argv) {
 
     return 0;
 }
+*/
