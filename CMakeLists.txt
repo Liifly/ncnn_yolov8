@@ -12,7 +12,7 @@ message(${ncnn_DIR})
 find_package(ncnn REQUIRED)
 
 # 添加可执行文件
-add_executable(yolov8ncnn yoloV8.cpp yolov8main.cpp)
+add_executable(yolov8ncnn yoloV8.cpp Hungarian.cpp KalmanTracker.cpp yolov8main.cpp)
 
 # 链接OpenCV库
 target_link_libraries(yolov8ncnn ncnn ${OpenCV_LIBS})
